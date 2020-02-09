@@ -76,8 +76,8 @@ class _HomePageState extends State<HomePage> {
                         fontWeight: FontWeight.bold
                       ),
                     ),
-                    Text(bio == null ? "Grupo de estudos, focado em Flutter e Dart, "
-                    "venham participar e ajudar a comunidade com mais conteúdo o/" : bio, 
+                    Text(bio == null ? name == null ? "Grupo de estudos, focado em Flutter e Dart, "
+                    "venham participar e ajudar a comunidade com mais conteúdo o/" : "Null" : bio, 
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 20.0, 
@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage> {
                     icon: Icon(Icons.account_circle, size: 40)
                   ),
                   controller: _idController,
-                  keyboardType: TextInputType.number,
+                  keyboardType: TextInputType.text,
                   textAlign: TextAlign.center,
                   onFieldSubmitted: (userName){
                     getUser(userName);
