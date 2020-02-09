@@ -1,8 +1,8 @@
 # Primeiros Passos
 
-Projeto para o meetup Flutter Nation.
+Projeto para o Meetup Flutter Nation.
 
-## Seus primeiros passos começa aqui
+## Seus primeiros passos começam aqui
 
 :iphone: Neste App pode conhecer alguns dos principais Widgets do **Flutter**
 
@@ -23,4 +23,4 @@ Projeto para o meetup Flutter Nation.
 
 <img src="https://github.com/DuhAlonso/app_primeiros_passos/blob/master/screenshot/default.png" width="250"> <img src="https://github.com/DuhAlonso/app_primeiros_passos/blob/master/screenshot/facebook_search.png" width="250"> <img src="https://github.com/DuhAlonso/app_primeiros_passos/blob/master/screenshot/flutter_nation.png" width="250">
 
-### Estudar é fundamental para um bom futuro, estudar e praticar é a chave pro SUCESSO!
+### Estudar é fundamental para um bom futuro, estudar e praticar é a chave do SUCESSO!
