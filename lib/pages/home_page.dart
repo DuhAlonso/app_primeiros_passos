@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:primeiros_passos/widget/drawer.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -31,6 +32,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
    return Scaffold(
+     drawer: DrawerWidget(),
       appBar: AppBar(
         actions: <Widget>[
           IconButton(
