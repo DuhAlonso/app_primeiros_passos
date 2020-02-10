@@ -17,7 +17,8 @@ import 'package:primeiros_passos/pages/random.dart';
             ),
           ),
           ListTile(
-            title: Text('Search User'),
+            title: Text('Search User', 
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w400)),
             onTap: () {
               Navigator.of(context).push(
                 MaterialPageRoute(builder: (context) => HomePage())
@@ -25,7 +26,8 @@ import 'package:primeiros_passos/pages/random.dart';
             },
           ),
           ListTile(
-            title: Text('Random Number'),
+            title: Text('Random Number',
+            style: TextStyle(fontSize: 25, fontWeight: FontWeight.w400)),
             onTap: () {
               Navigator.push(context,
                 MaterialPageRoute(builder: (context) => RandomPage())
