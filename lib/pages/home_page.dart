@@ -18,15 +18,16 @@ class _HomePageState extends State<HomePage> {
   String avatarUrl;
   Map date;
 
-  Future<Map> getUser(userName) async { //Usar um Future pois é uma requisição futura
+  getUser(userName) async {
   http.Response response = await http.get("https://api.github.com/users/$userName"); // Da classe http, fazer a requisição
+  Map<String, dynamic> data = json.decode(response.body); //Transformei o retorno da requisição em um mapa
  
-  setState(() { // Usei setSatet pois quando pegar os dados do User que atualizar meus widgets com os dados da requisição
-    name = json.decode(response.body)["name"]; // Estou dizendo que minhas variaveis vai receber os valores da minha requisição
-    bio = json.decode(response.body)["bio"];
-    avatarUrl = json.decode(response.body)["avatar_url"];
+  setState(() { // Usei setSatet pois quando pegar os dados do User, atualizar meus widgets com os dados da requisição
+    name = data["name"]; // Estou dizendo que minhas variaveis vai receber os valores da minha requisição
+    bio = data["bio"];
+    avatarUrl = data["avatar_url"];
   });
-  return date = json.decode(response.body); // retorno a requisição em formato de mapa
+  
   }
 
   @override

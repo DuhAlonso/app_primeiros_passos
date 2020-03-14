@@ -1,13 +1,13 @@
 # Primeiros Passos
 
-Projeto para o Meetup Flutter Nation.
+Projeto para apresentar em meetups.
 
 ## Seus primeiros passos começam aqui
 
 :iphone: Neste App pode conhecer alguns dos principais Widgets do **Flutter**
 
-- [Instalação](https://flutter.dev/docs/get-started)
-- [Widgets](https://flutter.dev/docs/development/ui/widgets)
+- [Instalação do flutter](https://flutter.dev/docs/get-started)
+- [O que é Widgets?](https://flutter.dev/docs/development/ui/widgets)
 
 :sunglasses: Qualquer dúvida me chama em qualquer rede social
 

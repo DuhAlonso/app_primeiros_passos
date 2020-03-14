@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:primeiros_passos/pages/busca_cep.dart';
 import 'package:primeiros_passos/pages/home_page.dart';
 import 'package:primeiros_passos/pages/random.dart';
 
@@ -22,6 +23,15 @@ import 'package:primeiros_passos/pages/random.dart';
             onTap: () {
               Navigator.of(context).push(
                 MaterialPageRoute(builder: (context) => HomePage())
+              );
+            },
+          ),
+          ListTile(
+            title: Text('Busca CEP', 
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.w400)),
+            onTap: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => BuscaCep())
               );
             },
           ),
